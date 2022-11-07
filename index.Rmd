@@ -1,6 +1,6 @@
 ---
 title: "Gov 50 Final Project"
-author: "Your Name Here"
+author: "Kayra Yaman"
 description: "My final project"
 output:
   distill::distill_article:
@@ -11,4 +11,4 @@ output:
 
 ## Project thoughts
 
-I am interested in exploring data related to...
+I am interested in exploring data related to Syrian refugees living in Turkey. In particular, if I could find data relating to their changing acceptance in Turkey as the conflict in Syria drags on after 10+ years (becoming more or less accepted, what factors ma be contributing to the change, or appear to be correlated to it) that would also be useful for my junior research paper that I am writing.
