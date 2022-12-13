@@ -90,7 +90,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_meta_tags-->
   <title>Gov 50 Final Project</title>
 
-  <meta property="description" itemprop="description" content="Riches to Refuge: The effect of GDP per capita on the number of refugees a country hosts per year"/>
+  <meta property="description" itemprop="description" content="Refuge vs Riches: The effect of GDP per capita on the number of refugees a country hosts per year"/>
 
 
   <meta name="article:author" content="Kayra Yaman"/>
@@ -98,19 +98,19 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Gov 50 Final Project"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Riches to Refuge: The effect of GDP per capita on the number of refugees a country hosts per year"/>
+  <meta property="og:description" content="Refuge vs Riches: The effect of GDP per capita on the number of refugees a country hosts per year"/>
   <meta property="og:locale" content="en_US"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:title" content="Gov 50 Final Project"/>
-  <meta property="twitter:description" content="Riches to Refuge: The effect of GDP per capita on the number of refugees a country hosts per year"/>
+  <meta property="twitter:description" content="Refuge vs Riches: The effect of GDP per capita on the number of refugees a country hosts per year"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","author","description","output"]}},"value":[{"type":"character","attributes":{},"value":["Gov 50 Final Project"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Kayra Yaman"]}]}]},{"type":"character","attributes":{},"value":["Riches to Refuge: The effect of GDP per capita on the number of refugees a country hosts per year"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","author","description","output"]}},"value":[{"type":"character","attributes":{},"value":["Gov 50 Final Project"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Kayra Yaman"]}]}]},{"type":"character","attributes":{},"value":["Refuge vs Riches: The effect of GDP per capita on the number of refugees a country hosts per year"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -1495,7 +1495,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Gov 50 Final Project","description":"Riches to Refuge: The effect of GDP per capita on the number of refugees a country hosts per year","authors":[{"author":"Kayra Yaman","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}]}
+{"title":"Gov 50 Final Project","description":"Refuge vs Riches: The effect of GDP per capita on the number of refugees a country hosts per year","authors":[{"author":"Kayra Yaman","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1508,7 +1508,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <h1>Gov 50 Final Project</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p>Riches to Refuge: The effect of GDP per capita on the number of refugees a country hosts per year</p>
+<p>Refuge vs Riches: The effect of GDP per capita on the number of refugees a country hosts per year</p>
 </div>
 
 <div class="d-byline">
@@ -1541,15 +1541,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="index_files/figure-html5/Dependent%20Variable%20Plot-1.png" width="624" /></p>
 </div>
-<p>The continuous density plot above visualizes the total number of refugees hosted per country per year. The plot is extremely right skewed with the point of highest density being near zero on the x-axis. This shows that the vast majority of countries in any year host very few (if not exactly zero) refugees.
-- Am I treating the per country per time aspect correctly here?</p>
+<p>The continuous density plot above visualizes the total number of refugees hosted per country per year. The plot is extremely right skewed with the point of highest density being near zero on the x-axis. This shows that the vast majority of countries in any year host very few (if not exactly zero) refugees.</p>
 <h2 id="results">Results</h2>
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="index_files/figure-html5/Independent%20and%20Dependent%20Variable%20Plot-1.png" width="624" /></p>
 </div>
-<p>The scatter plot visualizes the relationship between a country’s GDP per capita and the number of refugees it hosts per year. It shows a large cluster of countries per year with a GDP per capita of under US$50,000 and hosting 1 million refugees. The univariate linear regression plotted over it has a slightly positive slope, suggesting that as a country’s GDP per capita increases the number of refugees it hosts per year also increases slightly. However, in modelling this relationship, this univariate regression does not control for year or country.
-- Should I show and explain the model summary for this regression too? (eg main coefficient, r2, adj r2, stat significance, etc.)?
-- Or, is it possible to plot the multi-variable linear regression over top of the scatter plot instead of the singular variable one?</p>
+<p>The scatter plot visualizes the relationship between a country’s GDP per capita and the number of refugees it hosts per year. It shows a large cluster of countries per year with a GDP per capita of under US$50,000 and hosting 1 million refugees. The univariate linear regression plotted over it has a slightly positive slope, suggesting that as a country’s GDP per capita increases the number of refugees it hosts per year also increases slightly. However, in modelling this relationship, this univariate regression does not control for year or country.</p>
 <div class="layout-chunk" data-layout="l-body">
 <table style="NAborder-bottom: 0; width: auto !important; margin-left: auto; margin-right: auto;" class="table">
 <thead>
@@ -1641,12 +1638,10 @@ R2 Adj.
 </tfoot>
 </table>
 </div>
-<p>This multi-variable linear regression explains the relationship between a country’s GDP and the number of refugees it hosts, controlling for year, and each country (though they are not shown in the above summary). This model has an R2 value of approximately 0.370 and an Adjusted R2 value of approximately 0.351 which indicates that the linear regression is not a particularly strong fit to the data. However, the regression coefficient of GDP shows that for an increase in $1 in GDP per capita, a given country would theoretically experience a decrease of approximately -2.652 in the total number of refugees it hosts, while controlling for country and year. This decrease is also statistically significant at the p &lt; 0.01 level. Overall, this linear regression suggests that as a country’s GDP per capita increases, the number of refugees it hosts decreases.
-- Is this plain enough English?</p>
+<p>This multi-variable linear regression explains the relationship between a country’s GDP and the number of refugees it hosts, controlling for year, and each country (though they are not shown in the above summary). This model has an R2 value of approximately 0.370 and an Adjusted R2 value of approximately 0.351 which indicates that the linear regression is not a particularly strong fit to the data. However, the regression coefficient of GDP shows that for an increase in $1 in GDP per capita, a given country would theoretically experience a decrease of approximately -2.652 in the total number of refugees it hosts, while controlling for country and year. This decrease is also statistically significant at the p &lt; 0.01 level. Overall, this linear regression suggests that as a country’s GDP per capita increases, the number of refugees it hosts decreases.</p>
 <h2 id="conclusion">Conclusion</h2>
-<p>To conclude, while there does appear to be a statistically significant negative correlation between a country’s GDP per capita and the number of refugees it hosts per year (when controlling for country and year), I cannot say that the relationship is definitively causal as there are many potential confounding factors that could also influence the number of refugees a country hosts, in addition to its GDP per capita. For example, geographic proximity to a conflict could be a confounding factor as many countries with higher GDPs per capita are not in close proximity to conflicts that might cause mass refugee migration and therefore might not receive as many refugees or asylum requests as the countries that are closer and that also have lower GDPs per capita. In addition, as mentioned above, the multi-variable linear regression constructed had fairly low R2 and Adjusted R2 values, indicating that the linear model was not a great fit for the data. This is one potential limitation of this study as a different type of regression might have resulted in a better model fit. Other potential limitations include the fact that the data on GDP and refugees hosted was collected from different sources, meaning that in joining the two data sets a number of rows had to be dropped (I used an inner join so rows were dropped from both tibbles). However, the statistically significant correlation, which shows that richer countries tend to host fewer refugees than poorer countries rings true to recent history. One important example is the famous EU-Turkey deal from 2016 (sometimes labeled as Europe’s year of shame) when the European Union agreed to pay Turkey 6 billion euros to control its borders and prevent Syrian refugees from reaching the EU to apply for asylum and seek aid. This deal came about after Europe saw record numbers of refugees arriving to its shores the previous years, but that number was dwarfed by the 3.6 million Syrian refugees that Turkey (a country with a significantly smaller GDP per capita) currently hosts.
-- Can I include this bit of commentary at the end?
-- Do I just submit to canvas?</p>
+<p>To conclude, while there does appear to be a statistically significant negative correlation between a country’s GDP per capita and the number of refugees it hosts per year (when controlling for country and year), I cannot say that the relationship is definitively causal as there are many potential confounding factors that could also influence the number of refugees a country hosts, in addition to its GDP per capita. For example, geographic proximity to a conflict could be a confounding factor as many countries with higher GDPs per capita are not in close proximity to conflicts that might cause mass refugee migration and therefore might not receive as many refugees or asylum requests as the countries that are closer and that also have lower GDPs per capita. In addition, as mentioned above, the multi-variable linear regression constructed had fairly low R2 and Adjusted R2 values, indicating that the linear model was not a great fit for the data. This is one potential limitation of this study as a different type of regression might have resulted in a better model fit. Other potential limitations include the fact that the data on GDP and refugees hosted was collected from different sources, meaning that in joining the two data sets a number of rows had to be dropped (I used an inner join so rows were dropped from both tibbles).</p>
+<p>However, the statistically significant correlation, which shows that richer countries tend to host fewer refugees than poorer countries rings true to recent history. One important example is the famous EU-Turkey deal from 2016 (sometimes labeled as Europe’s year of shame) when the European Union agreed to pay Turkey 6 billion euros to control its borders and prevent Syrian refugees from reaching the EU to apply for asylum and seek aid. This deal came about after Europe saw record numbers of refugees arriving to its shores the previous years, but that number was dwarfed by the 3.6 million Syrian refugees that Turkey (a country with a significantly smaller GDP per capita) currently hosts.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
