@@ -111,7 +111,7 @@ scatter_plot <- merged |>
 scatter_plot
 
 ```
-The scatter plot visualizes the relationship between a country's GDP per capita and the number of refugees it hosts per year. It shows a large cluster of countries per year with a GDP per capita of under US$50,000 and hosting 1 million refugees. The univariate linear regression plotted over it has a slightly positive slope, suggesting that as a country's GDP per capita increases the number of refugees it hosts per year also increases slightly. However, in modelling this relationship, this univariate regression does not control for year or country. 
+The scatter plot visualizes the relationship between a country's GDP per capita and the number of refugees it hosts per year. It shows a large cluster of countries per year with a GDP per capita of under US$50,000 and hosting 1 million refugees. The bivariate linear regression plotted over it has a slightly positive slope, suggesting that as a country's GDP per capita increases the number of refugees it hosts per year also increases slightly. However, in modelling this relationship, this bivariate regression does not control for year or country. 
 
 
 ```{r Linear Regression, echo= FALSE}
